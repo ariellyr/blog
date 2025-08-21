@@ -76,3 +76,86 @@ header{
         gap: 40px;
         flex-wrap: wrap;
           }
+     .article-card{
+        background-color: #f4f5f7;
+        color: #0a111e;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+        padding: 16px;
+        border-radius: 8px;
+
+    }
+    .article-header{
+        display: flex;
+        justify-content: space-between;
+        margin: 8px;
+        font-weight: 200;
+    }
+    .article-title{
+        font-weight: bolder;
+    }
+    .article-content{
+        line-height: 1.4;
+    }
+    .likebutton{
+        background: none;
+        border: none;
+    }
+    @media (max-width:768px){
+        .article-header{
+            font-size: 0.8em ;
+        }
+        header, .articles{
+            padding: 40px;
+
+        }
+    }
+
+    main{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+        color: #a0aec0
+        
+    }
+    article{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 24px;
+        flex-wrap: wrap;
+        padding: 20px;
+        background-color: #f4f5f7;
+        border-radius: 20px;
+        box-shadow: 2px 2px 5px rgba(0 , 0 ,  0, 0.6);
+        flex-direction: column;
+        width: 60%;
+        color: #0a111e;
+    }
+    article h2{
+        color: #0a111e;
+        font-size: 2em;
+        margin: 0;
+        font-weight: 900;
+    }
+    .news-body{
+        color: #0a111e;
+        font-size: 1em;
+        line-height: 1.5;
+        text-indent: 24px;        
+    }
+   
+    .news-highlight{
+        color: #0a111e;
+        font-size: 1.5em;
+        font-weight: lighter;
+        text-align: center;
+        font-style: italic;
+    }
+    img{
+        border-radius: 30px;
+        width: 50%;
+        padding: 16px;
+    }
+    
