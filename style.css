@@ -119,7 +119,7 @@ header{
         color: #a0aec0
         
     }
-    article{
+     .noticia{
         display: flex;
         align-items: center;
         justify-content: center;
@@ -133,7 +133,7 @@ header{
         width: 60%;
         color: #0a111e;
     }
-    article h2{
+    .titulo{
         color: #0a111e;
         font-size: 2em;
         margin: 0;
